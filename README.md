@@ -3,9 +3,9 @@
 Bot de Auditoria e Monitoramento para Discord
 Este projeto é um bot de auditoria corporativa desenvolvido em Python, utilizando a biblioteca discord.py, com o objetivo de trazer mais transparência, controle e automação para servidores Discord utilizados em ambientes profissionais.
 
-🚀 Funcionalidades principais
+🚀 Funcionalidades principais 
 Registro automático de mensagens apagadas:
-Toda vez que uma mensagem é deletada, um log completo e detalhado é enviado para um canal de auditoria e para o canal original.
+-Toda vez que uma mensagem é deletada, um log completo e detalhado é enviado para um canal de auditoria e para o canal original.
 
 Monitoramento de mensagens editadas:
 Armazena e apresenta o histórico antes e depois de edições importantes em canais do servidor.
