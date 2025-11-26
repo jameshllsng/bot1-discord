@@ -1,4 +1,4 @@
-# bot1-discord
+# bot1-discord -- O meu primeiro bot
 
 🚀 Automação, Monitoramento e Logs Corporativos com Discord.py! 🚀
 
