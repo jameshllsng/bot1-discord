@@ -3,7 +3,7 @@ import discord
 from discord import Embed
 from datetime import datetime
 
-#Informandop ID do chat de logs
+#Informando o ID do chat de logs
 log_channel_id = CODIGO REMOVIDO DEVIDO A RISCOS DE PRIVACIDADE
 #Definindo permissões do bot
 client = discord.Client(intents=discord.Intents.all())
@@ -59,3 +59,4 @@ async def on_message_edit(before, after):
 
 #Token do BOT
 client.run('CODIGO REMOVIDO DEVIDO A RISCOS DE PRIVACIDADE')
+
