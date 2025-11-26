@@ -1,33 +1,40 @@
 # bot1-discord -- O meu primeiro bot
 
-🚀 Automação, Monitoramento e Logs Corporativos com Discord.py! 🚀
+Bot de Auditoria e Monitoramento para Discord
+Este projeto é um bot de auditoria corporativa desenvolvido em Python, utilizando a biblioteca discord.py, com o objetivo de trazer mais transparência, controle e automação para servidores Discord utilizados em ambientes profissionais.
 
-Hoje quero compartilhar um projeto pessoal que desenvolvi utilizando Python e a biblioteca discord.py para automação e gestão no Discord corporativo.
+🚀 Funcionalidades principais
+Registro automático de mensagens apagadas:
+Toda vez que uma mensagem é deletada, um log completo e detalhado é enviado para um canal de auditoria e para o canal original.
 
-👨‍💻 Sobre o projeto:
-Criei um bot capaz de acompanhar e registrar automaticamente eventos críticos em canais do Discord, incluindo:
-- Detecção e log de mensagens apagadas
-- Registro das mensagens editadas, antes e depois das alterações
-- Utilização de Embeds do Discord para deixar os registros organizados, bonitos e profissionais
+Monitoramento de mensagens editadas:
+Armazena e apresenta o histórico antes e depois de edições importantes em canais do servidor.
 
-🛠️ Linguagens e Tecnologias Usadas:
-- Python (linguagem principal)
-- discord.py (API wrapper do Discord para Python)
-- Uso de JSON para estrutura de dados
-- Utilização prática de event handlers e async/await para lidar com eventos em tempo real
+Utilização de Embeds do Discord:
+Todas as notificações são formatadas em embeds para garantir clareza, leitura rápida e uma apresentação visual profissional.
 
-📊 Atividades realizadas:
-- Programação de eventos personalizados para captação de modificações e exclusão de mensagens
-- Implementação de mensagens Embed para logs (design e organização)
-- Integração de permissões avançadas e configurações (intents, tokens, IDs de canal)
-- Configuração de ambiente e publicação do bot operativo em ambiente corporativo
+🛠️ Tecnologias utilizadas
+- Python 3.x
+- discord.py (pip install discord.py)
+- Estrutura de eventos assíncronos com async/await
+- Configuração de intents no Discord Developer Portal
 
-💡 Motivação:
-- Senti a necessidade de maior transparência, segurança e controle nas comunicações internas, além de automação de auditorias e suporte ao compliance digital em ambientes empresariais.
+💡 Motivação
+Empresas e equipes modernas usam Discord para comunicação ágil, mas precisam de ferramentas que garantam governança, rastreamento de informações e compliance digital. Este bot resolve essa demanda, tornando o ambiente muito mais seguro, auditável e transparente.
 
-🔗 Aprendizados e Próximos Passos:
-- Conexão prática entre APIs e automação de tarefas diárias
-- Uso profissional de bots para produtividade, atendimento e análise de dados
-- Próxima etapa: integração com sistemas de ticket, calendário, enquetes e painéis de auditoria
+👨‍💻 Como utilizar
+- Clone este repositório
+- Instale as dependências com pip install discord.py
+- Configure o arquivo com o seu token e o ID do canal de logs
+- Habilite as intents requeridas no Discord Developer Portal
+- Execute o bot com python bot.py
 
-Se tiver interesse em bots, automação, Python ou segurança digital, troca uma ideia comigo! Sempre aberto para aprender e compartilhar 🚦
+⚡ Próximos passos
+- Integração com sistemas de ticket e helpdesk
+- Painéis de relatórios automáticos
+- Novos comandos e interação personalizada para equipes de TI, RH e suporte
+
+Sinta-se à vontade para contribuir, usar em seu servidor e sugerir melhorias!
+Para dúvidas e contribuições, abra uma Issue ou pull request.
+
+🦾 Feito por Luís Miguel (James)
